@@ -115,38 +115,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/styles-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/sass\/styles-min-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/sass\/styles-min.css.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/sass\/styles-min.css.map",
-		"oF": 0
-		},
-	"\/sass\/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/sass\/styles-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/sass\/styles.css.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/sass\/styles.css.map",
-		"oF": 0
-		},
 	"\/sass\/styles.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -167,7 +135,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 513040683,
-	"displayValue": "Web-3-Starter",
+	"displayValue": "semantic-weather",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-kahn"
 	},
