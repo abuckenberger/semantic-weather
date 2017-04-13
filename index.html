@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Web 3 Starter</title>
+    <title>Semantic Weather</title>
     
     <!-- Normalize CSS makes browsers render all elements more consistently -->
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">  
@@ -11,15 +11,119 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+   <main class="ui two column grid">
+<!--    first column   -->
+      <h1>Semantic Weather</h1>
+      
+       <section class="column">
+       <div class="ui styled accordion">
+  <div class="title">
+    <i class="dropdown icon"></i>
+    Cheney
+  </div>
+  <div class="content">
+    <section class="column">
+           
+           <div class="ui card">
+           
+<!--     img      -->
+           <div class="image">
+           
+           <img src="http:placehold.it/200x200" alt="">
+           
+           </div>
+           
+           <div class="content">
+           <h3 class="temp"></h3>
+           <h3 class="city">City</h3>
+           
+           </div>
+           
+           <div class="description">
+           
+           <p>The weather is...</p>
+           
+           </div>
+           
+           </div>
+           
+       </section>
+  </div>
+  <div class="title">
+    <i class="dropdown icon"></i>
+    Seattle
+  </div>
+  <div class="content">
+    <section class="column">
+           
+           <div class="ui card">
+           
+<!--     img      -->
+           <div class="image">
+           
+           <img src="http:placehold.it/200x200" alt="">
+           
+           </div>
+           
+           <div class="content">
+           <h3 class="temp"></h3>
+           <h3 class="city">City</h3>
+           
+           </div>
+           
+           <div class="description">
+           
+           <p>The weather is...</p>
+           
+           </div>
+           
+           </div>
+           
+       </section>
+  </div>
+  <div class="title">
+    <i class="dropdown icon"></i>
+    Pasco
+  </div>
+  <div class="content">
+    <section class="column">
+           
+           <div class="ui card">
+           
+<!--     img      -->
+           <div class="image">
+           
+           <img src="http:placehold.it/200x200" alt="">
+           
+           </div>
+           
+           <div class="content">
+           <h3 class="temp"></h3>
+           <h3 class="city">City</h3>
+           
+           </div>
+           
+           <div class="description">
+           
+           <p>The weather is...</p>
+           
+           </div>
+           
+           </div>
+           
+       </section>
+  </div>
+</div>
+    </section>
+<!--  second column     -->
+     
+        
+          
+       
+       
+   </main>
    
-   
-    <div class="ui grid">
-    
-  <div class="column"><h1>col 1</h1></div>
-  <div class="column"><h1>col 2</h1></div>
-  <div class="column"><h1>col 3</h1></div>
-  
-    </div>
+
    
    
    
@@ -39,9 +143,13 @@
 <!-- SEMANTIC UI -->
 <script src="js/semantic.js"></script>
 
+<script src="js/jquery.simpleWeather.min.js"></script>
+
 <!-- OUR SCRIPTS -->
 <script src="js/plugin.js"></script>
 <script src="js/scripts.js"></script>
+
+
 
 
 </body>
